@@ -1,0 +1,139 @@
+.header1{
+    margin-left: 400px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title1{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.type1{
+    width: 800px;
+    height: 60px;
+    margin-right: 50px;
+    border-radius: 20px;
+    color: lightgrey;
+    border: solid 2px lightgray;
+}
+
+.click1{
+    width: 180px;
+    height: 83px;
+    border-radius: 20px;
+    border: solid 2px lightgray;
+}
+
+.click1:hover{
+    cursor: pointer;
+    background-color: gray;
+}
+
+.elements input{
+    flex: 1;            
+    padding: 10px;
+    font-size: 30px;
+}
+
+.elements button{
+    padding: 10px 20px;
+    font-size: 30px;
+}
+
+.list {
+    margin-top: 20px;
+    background-color: lightgrey;
+    width: 1055px;
+    min-height: 150px;
+    margin-left: 400px;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column; 
+    flex-wrap: wrap;      
+}
+
+.list3 h1 {
+    margin: 0 20px;
+    font-size: 22px;
+}
+
+.product{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 20px;
+}
+
+.list2 {
+    margin-top: 20px;
+    background-color: lightgrey;
+    width: 1055px;
+    min-height: 200px;
+    margin-left: 400px;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 20px;
+    display: flex;          
+    flex-direction: column; 
+}
+
+.list3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.list3 input{
+    width: 50px;
+    height: 50px;
+}
+
+.list3 button{
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+} 
+
+.lista {
+    list-style-type: none; 
+    padding: 0;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column; 
+    gap: 10px;
+}
+
+.lista li {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+}
+
+.cekiranje{
+    width: 25px;
+    height: 25px;
+}
+
+button{
+    height: 35px;
+    width: 35px;
+    font-size: 18px;
+}
+
+.stavke{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.napomena{
+    margin-top: auto;
+}
